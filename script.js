@@ -17,6 +17,8 @@ function leaveElem(e) {
 }
 
 function showLevel(e) {
+    $('.water-level').removeClass('active-level');
+    $(e.target).addClass('active-level');
     let lvl = $(e.target).text();
     switch(lvl) {
         case '0': $('.water').attr('height', '0').attr('y', '628').css('transition', 'all 3s ease'); break;

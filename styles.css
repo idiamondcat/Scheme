@@ -84,8 +84,12 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 26px;
     font-weight: 300;
+    fill: #efefef;
 }
 .water-level:hover {
+    fill: #63b6eb;
+}
+.active-level {
     fill: #63b6eb;
 }
 .water {
